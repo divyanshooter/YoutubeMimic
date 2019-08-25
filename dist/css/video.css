@@ -1,0 +1,14 @@
+.video-body
+{
+    display: grid;
+    grid-template-columns: repeat(5,12rem);
+    grid-column-gap: 1.2rem;
+    grid-row-gap: 5rem;
+
+}
+.video-body-content
+ {
+     height:8rem;
+     width:12rem;
+ }
+

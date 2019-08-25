@@ -1,0 +1,105 @@
+.container
+{
+    display: grid;
+    grid-template-columns: 18% 82%;
+    grid-template-rows: 10% auto;
+    grid-column-gap: 30px;
+    grid-template-areas:  ". ."
+                         "menu main";
+}
+.toggled-container
+{
+    display: grid;
+    grid-template-columns: 5% 85%;
+    grid-template-rows: 10% auto;
+    grid-column-gap: 8rem;
+    grid-template-areas:  ". ."
+                         "menu main";
+}
+
+.menu
+{
+    grid-area: menu;
+    background:rgba(211,211,211,0.1);
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.toggled-menu
+{
+    grid-area: menu;
+    font-family: 'Montserrat', sans-serif;
+    font-size:0.7rem;
+}
+.menu-display
+{
+    display: none;
+}
+.menu-img
+{
+    width:23px;
+    margin:0 1rem;
+}
+.toggled-menu-img
+{
+    width:23px;
+    margin:0 1rem;
+}
+
+.menu-list
+{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    margin-left:1rem;
+    
+}
+.toggled-menu-list
+{
+    list-style: none;
+    margin-top:5rem;
+}
+.menu-list-items
+{
+    margin:12px 0;
+    display: flex;
+    align-items: center;
+}
+.toggled-menu-list-items
+ {
+     display: flex;
+     flex-flow: column;
+     align-items: center;
+     margin:2.5rem 0;
+
+ }
+.menu-list-heading
+{
+    margin-left:1rem;
+}
+.menu-list-content
+{
+    margin-left:1.8rem;
+}
+.menu-list button
+{
+    margin-bottom: 0.95rem;
+}
+.main 
+{
+    grid-area: main;
+    
+}
+
+.main-ad
+{
+    height:250px;
+    width: 95%;
+    background: rgba(17,17,17,0.7);
+}
+.main-subheading
+{
+    display: inline-block;
+    margin:10px 2px;
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+}
